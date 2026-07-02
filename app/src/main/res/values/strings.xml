@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">وصال</string>
+    <string name="loading">جاري التحميل...</string>
+    <string name="error_generic">حدث خطأ، حاول مرة أخرى</string>
+    <string name="no_data">لا توجد بيانات</string>
+    <string name="retry">إعادة المحاولة</string>
+    <string name="add_to_cart">أضف للسلة</string>
+    <string name="cart">السلة</string>
+    <string name="home">الرئيسية</string>
+    <string name="my_orders">طلباتي</string>
+    <string name="profile">حسابي</string>
+    <string name="notifications">الإشعارات</string>
+</resources>

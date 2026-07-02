@@ -1,0 +1,49 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Rounded Background Container -->
+    <path
+        android:fillColor="#1A5C3A"
+        android:pathData="M24,0 L96,0 A24,24 0,0 1,120 24 L120,96 A24,24 0,0 1,96 120 L24,120 A24,24 0,0 1,0 96 L0,24 A24,24 0,0 1,24 0 Z" />
+    
+    <!-- Stylized Delivery Scooter Outline (Gold/Amber) -->
+    <path
+        android:strokeColor="#FFB800"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M35,68 L50,68 L58,52 L78,52 L83,68" />
+        
+    <!-- Scooter Steering Handle -->
+    <path
+        android:strokeColor="#FFB800"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:pathData="M78,52 L75,40 L70,40" />
+
+    <!-- Delivery Box on the back -->
+    <path
+        android:fillColor="#FFB800"
+        android:pathData="M32,42 L52,42 L52,60 L32,60 Z" />
+
+    <!-- Wheels -->
+    <path
+        android:strokeColor="#FFB800"
+        android:strokeWidth="5"
+        android:fillColor="#1A5C3A"
+        android:pathData="M42,80 A8,8 0,1 1,42,64 A8,8 0,1 1,42,80 Z" />
+    <path
+        android:strokeColor="#FFB800"
+        android:strokeWidth="5"
+        android:fillColor="#1A5C3A"
+        android:pathData="M78,80 A8,8 0,1 1,78,64 A8,8 0,1 1,78,80 Z" />
+
+    <!-- Golden crescent swoosh to indicate speed and connection (وصال) -->
+    <path
+        android:strokeColor="#FFB800"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:pathData="M15,25 Q60,10 105,25" />
+</vector>
